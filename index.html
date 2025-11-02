@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarea 5</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+</head>
+<body>
+  <div class="caja_rosa"></div>
+  <br>
+  <div class="caja_cremita">
+  <div class="logos ancho">
+    <div class="logo_cabe">
+    <img src="imagenes/logocabecera.jpg" alt="">
+    </div>
+    <div class="iconos">
+      <img src="imagenes/icono_facebook.jpg" alt="">
+      <img src="imagenes/icono_instagram.jpg" alt="">
+      <img src="imagenes/icono_twitter.jpg" alt="">
+    </div>
+    <br>
+    <div class="btns centrar">
+      <button>GALERÍA</button>
+      <button>PRECIOS</button>
+      <button>CONTACTANOS</button>
+      <button>EQUIPO</button>
+    </div>
+  </div>
+</div>
+  <br>
+  <div class="img_fondo ancho centrar">
+    <h2>PROMOCIONES DE MARZO</h2>
+    <hr>
+    <p>Se acerca la epoca de playa y por eso preparasmos estas dos<br>promociones ideales para ti</p>
+    <br>
+    <button>Solicitar promoción</button>
+    <a href="https://youtu.be/w4qaODLR_Xg?si=TOqUGmWLNQwtsvWN" target="_blank">ver Video</a>
+  </div>
+  <br>
+  <div class="ancho">
+    <div class="info">
+    <h1>Nuestros Productos</h1>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui modi, ratione ut possimus sint, nulla hic sed reiciendis nemo laboriosam assumenda ipsam eligendi aperiam quos iusto, ullam aut soluta ducimus quae sunt? Est atque velit fugit numquam laboriosam quos deleniti eum, commodi architecto magni perferendis vitae ut, tenetur sint dolor.</p>
+    </div>
+    <div class="foto1">
+    <img src="imagenes/fotovelas.jpg" alt="">
+    </div>
+  </div>
+  <br>
+  <div class="caja_cremita">
+  <div class="caja_info2 ancho ">
+    <h1>Buscamos Talento a nuestro equipo</h1>
+    <br>
+    <div class="img2">
+    <img src="imagenes/fotoaromatizante.jpg" alt="">
+    </div>
+    <div class="informacion">
+    <h3>Puesto de trabajo para Recepcionista</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus accusamus maxime veniam officiis ab eveniet autem eius similique quia voluptatum. Magnam ipsa perspiciatis, impedit nostrum veniam molestiae consequatur odio dolorem!</p>
+    <br>
+    <h3>Puesto de trabajo para Masajista</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi a sapiente ipsa laborum! Doloremque numquam iusto reiciendis commodi vitae omnis molestias aut nesciunt enim necessitatibus itaque exercitationem, fuga architecto error!</p>
+    <br>
+    <h3>Puesto de trabajo para Nutriologo</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum saepe, vero quae minus iusto ad et adipisci provident optio, corporis repellendus earum dignissimos asperiores error quas sunt numquam perspiciatis sequi.</p>
+    </div>
+  </div>
+  </div>
+  <br>
+
+  <div class="info2 ancho">
+    <div class="contacto">
+      <h1>Recibe noticias y promociones de SPA SALON</h1>
+      <p>Un lugar para consentirte de pies a cabeza <br> Servicio desalón estética y Spa personalizado</p>
+      <h4><span class="rosa">TELEFONO:</span> 999 420 8871</h4>
+      <h4><span class="rosa">CORREO:</span> info@spasalon.com</h4>
+      <br>
+      <div class="correo">
+      <form id="Correo_elec" action="loquesea.html" action="get">
+        <h5>Tu dirección de correo electrónico</h5>
+        <input type="email" id="Correo" placeholder="tunombre@example.com">
+        <br>
+        <button type="button" id="enviar">Enviar</button>
+      </form>
+      </div>
+      </div>
+      <div class="video">
+        <h2>Nuestras Instalaciones</h2>
+        <br>
+        <iframe width="550" height="315" src="https://www.youtube.com/embed/w4qaODLR_Xg?si=hwYit32BD2TMvV1X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+  </div>
+  <br><br>
+  <div class="caja_cremita">
+  <div class="datos ancho">
+    <div class="img_spa">
+    <img src="imagenes/logo_spa.png" alt="">
+    </div>
+    <div class="nombre">
+    <h3>Patricio Daniel Rosas López</h3>
+    <h3>Programación Web</h3>
+    <h3>7SA</h3>
+    </div>
+  </div>
+  </div>
+  <div class="caja_rosa"></div>
+
+
+  <script type="text/javascript">
+
+    $("#enviar").click(function () {
+  
+    //validacion email
+      if(!$("#Correo")[0].checkValidity()){
+        alert("Escribe correctamente tu correo");
+        $("#Correo").focus();
+        return 0;
+      }
+
+      if($("#Correo").val().trim() == "") {
+        alert("Escribe un correo valido");
+        $("#Correo").focus();
+        return 0;
+      }
+
+document.getElementById("Correo_elec").submit();
+  });
+  </script>
+</body>
+</html>

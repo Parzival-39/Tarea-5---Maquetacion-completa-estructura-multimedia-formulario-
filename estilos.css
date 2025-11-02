@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+.ancho {
+  max-width: 1200px;
+  margin: auto
+}
+.margen {
+  padding: 15px;
+}
+.centrar {
+  text-align: center;
+  margin: auto;
+}
+
+.caja_rosa {
+  width: 100%;
+  height: 10px;
+  background-color:#ff3281 ;
+}
+
+.caja_cremita {
+  width: 100%;
+  background-color:#fff9f1 ;
+}
+
+.logo_cabe {
+  display: inline-block;
+  vertical-align: top;
+}
+.iconos {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 30px ;
+  margin-left: 799px;
+}
+.iconos img {
+  margin-right: 20px;
+}
+
+.btns {
+  border: 2px black solid;
+}
+
+.btns button {
+  border: none;
+  font-weight: bold;
+  margin: 10px 100px 10px 100px;
+  cursor: pointer;
+  background-color: none;
+}
+
+.img_fondo {
+  background-image: url(imagenes/fondopiedras.jpg);
+  background-repeat: no-repeat;
+  height: 400px;
+  padding-top: 100px;
+}
+hr {
+  margin-bottom: 5px;
+  border: none;
+}
+.img_fondo h2{
+  color: white;
+}
+.img_fondo p {
+  color: white;
+}
+.img_fondo button {
+  background-color: #ff3281;
+  color: white;
+  padding: 15px;
+  border: none;
+  margin-right: 10px;
+}
+.img_fondo a {
+  text-decoration: none;
+  color: white;
+  padding: 12px;
+  border: 2px #ff3281 solid;
+}
+
+.info{
+width: 550px;
+display: inline-block;
+vertical-align: top;
+margin-right: 150px;
+margin-left: 30px;
+}
+
+.info p {
+  line-height: 25px;
+}
+.foto1 {
+  display: inline-block;
+}
+.foto1 img{
+  height: 250px;
+  margin-left: 50px;
+}
+.caja_info2 h1 {
+  text-align: center;
+  padding: 8px;
+}
+.img2 {
+  display: inline-block;
+}
+.informacion {
+  width: 600px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px 5px 5px 5px;
+}
+.img2 img {
+  border-radius: 20px;
+  height: 370px;
+  margin: 0px 10px 0px 30px;
+}
+
+.info2 {
+  padding: 10px;
+}
+.contacto {
+  padding: 10px;
+  width: 520px;
+  display: inline-block;
+  line-height: 35px;
+  vertical-align: top;
+  margin-right: 40px;
+}
+
+.contacto p {
+  line-height: 25px;
+}
+.rosa {
+  color: #ff3281;
+  font-weight: bold;
+}
+
+.correo {
+  border: 3px #ff3281 solid;
+  padding: 0px 10px 10px 10px;
+  
+}
+
+.correo input {
+  padding: 8px 0px 8px 8px ;
+  border: 1px #b5b5b5 solid;
+  border-radius: 7px;
+  width: 474px;
+}
+
+.correo button {
+  padding: 10px 45px 10px 45px ;
+  margin-top: 15px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.video {
+  width: 560px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 40px;
+  padding: 5px;
+}
+
+iframe {
+  border-radius: 10px;
+}
+
+.img_spa {
+display: inline-block;
+margin-left: 20px;
+}
+
+.nombre {
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+  margin-top:40px ;
+  color: #ff3281;
+  margin-left: 769px;
+}
